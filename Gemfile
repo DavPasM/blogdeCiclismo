@@ -24,6 +24,11 @@ group :jekyll_plugins do
   gem 'jekyll-postfiles', '~> 3.1'
 end
 
+group :test do
+  gem "html-proofer"
+  gem 'tzinfo-data'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
